@@ -1,5 +1,6 @@
 import React from 'react'
-
+import { setCharacter } from "./redux/actions/courseActions"
+import {connect} from "react-redux"
 function CharacterSelector(props) {
 
     const options = () => {
@@ -27,5 +28,13 @@ function CharacterSelector(props) {
     </div>
     )
 }
+const mapStateToProps = ({ courses }) => ({
+    character: courses.get("currentChar")
+});
 
-export default CharacterSelector
+const mapActionsToProps = dispatch => ({
+    setCharacter: event =>
+        dispatch(setCharacter(event.target.value.toLowerCase()))
+});
+export default connect(mapStateToProps, mapActionsToProps)(CharacterSelector);
+

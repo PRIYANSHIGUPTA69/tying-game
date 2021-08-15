@@ -2,28 +2,9 @@
     align-items: baseline;
 }
 .navbar-brand {
-    color: #e63998;
-    padding: 0.5rem 1rem;
+    color: #027981;
+    
     font-weight: 900;
     font-size: 2rem;
     letter-spacing: 0.2rem;
-}
-
-.navbar-link {
-    padding: 0.5rem 1rem;
-    font-size: 1.25rem;
-}
-
-.navbar-link:hover {
-    cursor: pointer;
-    color: #e63998;
-}
-
-.navbar-link.active {
-    color: #e63998;
-    border-bottom: 2px solid #e63998;
-}
-
-.navbar-link.active:hover {
-    cursor: not-allowed;
 }

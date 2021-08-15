@@ -1,5 +1,5 @@
 .dashboard {
-    background-color: #f5f8fa;
+    background-color: #22292f;
     padding: 1rem;
 }
 
@@ -18,7 +18,7 @@
     color: #fff;
     text-align: center;
     white-space: nowrap;
-    background-color: #e63998;
+    background-color:#027981;
     transition: width 0.6s ease;
     height: 100%;
     padding: 5px;

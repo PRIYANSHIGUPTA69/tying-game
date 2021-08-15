@@ -1,11 +1,11 @@
 
 body {
     margin: 0;
-    padding-top: 10px;
+    padding-top: 8px;
     color: #22292f;
     font-family: Arial, Georgia, sans-serif;
-    background-color: #f5f8fa;
-    overflow: scroll;
+    background-color: rgb(56, 56, 56);
+    overflow: hidden;
 }
 svg {
     fill: currentColor;
@@ -13,7 +13,7 @@ svg {
     height: 1.5rem;
 }
 .fill-primary svg {
-    fill: #2779bd;
+    fill: #027981;
 }
 
 .fill-danger svg {
@@ -59,6 +59,7 @@ width: 100%
 
 .jcc {
     justify-content: center;
+    background-color: #22292f;
 }
 .jcsb {
     justify-content: space-between;
@@ -90,12 +91,12 @@ width: 100%
 }
 
 .text-lg {
-    color: #8795a1;
+    color: whitesmoke;
     font-size: 2.25rem;
     font-weight: 100;
 }
 .text-md {
-    color: #8795a1;
+    color: whitesmoke;
     font-size: 1.5rem;
     font-weight: 100;
 }

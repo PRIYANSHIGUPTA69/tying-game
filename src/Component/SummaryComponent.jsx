@@ -6,15 +6,16 @@ import  Timer from "./Timer"
 import CharacterSelector from './CharacterSelector'
 import {connect} from "react-redux"
 function Summary(props) {
+    console.log(props)
     return (
-        <div className="summary shadow bordered-top">
+        <div className="summary shadow ">
             <Timer />
             <div className="header">
                 <div className="currentChar shadow">
                     <h6>{props.currentChar.toUpperCase()}</h6>
                 </div>
             </div>
-            <CharacterSelector character="abc" />
+            <CharacterSelector  />
             <div className="highlights">
                 <i className="fill-primary">
                     <IconCheckCircle />
@@ -30,7 +31,7 @@ function Summary(props) {
                 </span>
             </div>
             <div
-                className=" shadow bordered-left d-flex jcsb aic p-2"
+                className=" shadow  d-flex jcsb aic p-2"
                 title="Characters per minute"
             >
                 <span title="Characters per minute" className="text-md">

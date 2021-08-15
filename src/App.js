@@ -7,12 +7,13 @@ import Dashboard from "./Component/Dashboard";
 import Summary from "./Component/SummaryComponent";
 import { Provider } from "react-redux";
 import store from "./store";
+import Sounds from "./sounds/Sounds";
 function App () {
    
         return (
             <Provider store={store}>
                   <div className="container d-flex">
-           
+           <Sounds></Sounds>
            <div className="flex-8 jcc ">
                <NavbarComponent />
                <div className="bg-white flex-8">
@@ -23,7 +24,7 @@ function App () {
              
            </div>
            <div className="flex-4">
-                       <Summary currentChar='a'></Summary>
+                       <Summary ></Summary>
                    </div>
        </div>
             </Provider>

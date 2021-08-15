@@ -2,20 +2,25 @@
     width: 50px;
     font-size: 2rem;
     font-weight: 900;
-    color: black;
+    background-color: rgb(56, 56, 56);
+    color: whitesmoke;
+    box-shadow: 2px 1px 3px 0#027981, 2px 1px 3px 2px#03727a;;
+    
 }
 .key-passed,
 .key-failed {
-    box-shadow: 2px 1px 3px 0 #000, 2px 1px 3px 2px #000;
+   
     color: #fff;
 }
 .key-passed {
-    background-color: #2779bd20;
-    color: #2779bd;
+    background-color: #18141420;
+    box-shadow: 2px 1px 3px 0#027981, 2px 1px 3px 2px#03727a;;
+    color: #078e97;
 }
 
 .key-failed {
-    background-color: #ef575320;
+    box-shadow: 2px 1px 3px 0 #e3342f, 2px 1px 3px 2px #e3342f;
+    background-color:  #18141420;
     color: #ef5753;
 }
 
