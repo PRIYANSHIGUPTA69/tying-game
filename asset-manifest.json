@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/tying-game/static/css/main.0720efdd.chunk.css",
+    "main.js": "/tying-game/static/js/main.f3c1d0f7.chunk.js",
+    "main.js.map": "/tying-game/static/js/main.f3c1d0f7.chunk.js.map",
+    "runtime-main.js": "/tying-game/static/js/runtime-main.ed3487f3.js",
+    "runtime-main.js.map": "/tying-game/static/js/runtime-main.ed3487f3.js.map",
+    "static/js/2.c89aa8b3.chunk.js": "/tying-game/static/js/2.c89aa8b3.chunk.js",
+    "static/js/2.c89aa8b3.chunk.js.map": "/tying-game/static/js/2.c89aa8b3.chunk.js.map",
+    "index.html": "/tying-game/index.html",
+    "static/css/main.0720efdd.chunk.css.map": "/tying-game/static/css/main.0720efdd.chunk.css.map",
+    "static/js/2.c89aa8b3.chunk.js.LICENSE.txt": "/tying-game/static/js/2.c89aa8b3.chunk.js.LICENSE.txt",
+    "static/media/keyStroke.0d60cfd6.wav": "/tying-game/static/media/keyStroke.0d60cfd6.wav",
+    "static/media/ride.44e63854.wav": "/tying-game/static/media/ride.44e63854.wav",
+    "static/media/tink.b78647d2.wav": "/tying-game/static/media/tink.b78647d2.wav"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ed3487f3.js",
+    "static/js/2.c89aa8b3.chunk.js",
+    "static/css/main.0720efdd.chunk.css",
+    "static/js/main.f3c1d0f7.chunk.js"
+  ]
+}
